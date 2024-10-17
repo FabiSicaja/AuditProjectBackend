@@ -1,0 +1,30 @@
+{
+  "name": "auditprojectbackend",
+  "version": "1.0.0",
+  "description": "Proyecto de seguridad y auditoría de sistemas backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabiSicaja/AuditProjectBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabiSicaja/AuditProjectBackend/issues"
+  },
+  "homepage": "https://github.com/FabiSicaja/AuditProjectBackend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3",
+    "nodemailer": "^6.9.15",
+    "sequelize": "^6.37.4",
+    "twilio": "^5.3.3"
+  }
+}
